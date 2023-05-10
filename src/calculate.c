@@ -6,7 +6,7 @@
  * +和-的优先级最低，为3。
  * 所以数组代表的的内容依次是s，c，t，*，/，+，-。
  */
-int priorityMap['z'];
+int priorityMap['u'];
 
 void departToPostfix(struct PostfixElementArray* result, char* buffer)
 {
@@ -40,9 +40,13 @@ void departToPostfix(struct PostfixElementArray* result, char* buffer)
                 }
                 pushToPostfixArray(result, generateNumberElement(atof(temp)));
             }
-
+            // 如果快指针是特殊字符，先看是不是pi
+            if(buffer[fast] == 'p')
+            {
+                pushToPostfixArray(result, generateNumberElement(acos(-1)));
+            }
             // 此时快指针一定指在运算符或结尾上，读取运算符入栈
-            if((char_stack->top == 0 || priorityMap[getChar(char_stack)] > priorityMap[buffer[fast]] || buffer[fast] == '(') && buffer[fast] != 0)
+            else if((char_stack->top == 0 || priorityMap[getChar(char_stack)] > priorityMap[buffer[fast]] || buffer[fast] == '(') && buffer[fast] != 0)
             {
                 // 符合入栈规则的入栈
                 pushChar(char_stack, buffer[fast]);

@@ -13,7 +13,7 @@ void toLowerCase(char* buffer)
     {
         if(buffer[i] >= 'A' && buffer[i] <= 'Z')
         {
-            buffer[i] -= 32;
+            buffer[i] += 32;
         }
     }
 }
@@ -23,7 +23,7 @@ void simplifySyntax(char* buffer)
     char* temp = NULL;
     while(temp = strstr(buffer, " "))
     {
-        *(++temp) = 0;
+        *temp = 0;
         strcat(buffer, ++temp);
         temp = &buffer[strlen(buffer) - 1];
         *(++temp) = 0;
