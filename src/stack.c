@@ -55,7 +55,7 @@ double topDouble(struct DoubleStack* obj)
 
 char topChar(struct CharStack* obj)
 {
-    double ret = obj->array[obj->top - 1];
+    char ret = obj->array[obj->top - 1];
     obj->array[obj->top - 1] = 0;
     obj->top--;
     return ret;
