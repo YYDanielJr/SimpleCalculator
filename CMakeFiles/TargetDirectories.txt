@@ -1,0 +1,9 @@
+E:/SourceFiles/CUITProject1/CMakeFiles/Experimental.dir
+E:/SourceFiles/CUITProject1/CMakeFiles/Nightly.dir
+E:/SourceFiles/CUITProject1/CMakeFiles/Continuous.dir
+E:/SourceFiles/CUITProject1/CMakeFiles/NightlyMemoryCheck.dir
+E:/SourceFiles/CUITProject1/CMakeFiles/SimpleCalculator.dir
+E:/SourceFiles/CUITProject1/CMakeFiles/PACKAGE.dir
+E:/SourceFiles/CUITProject1/CMakeFiles/RUN_TESTS.dir
+E:/SourceFiles/CUITProject1/CMakeFiles/ALL_BUILD.dir
+E:/SourceFiles/CUITProject1/CMakeFiles/ZERO_CHECK.dir

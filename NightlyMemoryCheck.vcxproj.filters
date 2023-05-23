@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\SourceFiles\CUITProject1\CMakeFiles\cc16de9d71ca63a53cc735251bc1acf9\NightlyMemoryCheck.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\SourceFiles\CUITProject1\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\SourceFiles\CUITProject1\CMakeFiles\NightlyMemoryCheck" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{197C4069-5109-3C35-8F4C-F8B50B19188A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
