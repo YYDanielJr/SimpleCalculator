@@ -22,6 +22,6 @@ int main()
         printf("%lf", result);
         writeDouble(fp, result);
     } while (ask() == 'y');
-
+    closeHistoryFile(fp);
     return 0;
 }
